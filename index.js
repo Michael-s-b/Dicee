@@ -20,4 +20,4 @@ function main() {
     document.querySelector("h1").textContent = displayResult(randomNumber1, randomNumber2); //-------//assign the textContent property of the h1 element based on the returned string of the function displayResult
 }
 
-main();
+document.querySelector("button").addEventListener("click", main);
